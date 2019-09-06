@@ -11,6 +11,7 @@ let topicsSection = document.querySelector('.topics')
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then((response) => {
+        console.log('Cards is working perfectly');
         response.data.topics.forEach((topic) => {
             let newTab = Tab(topic)
             return newTab
