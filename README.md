@@ -30,14 +30,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    DOM is an API that allows programs and scripts to access and update style, struuture and content of a page. It is not exclusive to Javascript
+
 2. What is an event?
+
+    An event is any action that occurs dynamically on a page ranging from interactions to page update. For example hovers,clicks, scrolls e.t.c.
 
 3. What is an event listener?
 
+    An event listener is a method that waits for an event to happen then triggers a function.
+
 4. Why would we convert a NodeList into an Array?
+
+    In order to gain access to array methods
 
 5. What is a component?
 
+    A component is a piece of code that can be used to create repeating parts with dynamic content.
+    
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
