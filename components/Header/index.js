@@ -12,12 +12,13 @@ const headerContainer = document.querySelector('.header-container')
 
 function indexHeader() {
     let headerDiv = document.createElement('div')
-    let span = document.createElement('span')
+    let span1 = document.createElement('span')
+    let span2 = document.createElement('span')
+    
     let h1 = document.createElement('h1')
 
     headerDiv.classList.add('header')
 
-    let span1 = span
     headerDiv.appendChild(span1)
     span1.classList.add('date')
     span1.textContent = 'MARCH 28, 2019'
@@ -25,7 +26,7 @@ function indexHeader() {
     headerDiv.appendChild(h1)
     h1.textContent = 'Lambda Times'
 
-    let span2 = span
+
     headerDiv.appendChild(span2)
     span2.classList.add('temp')
     span2.textContent = '98°'
